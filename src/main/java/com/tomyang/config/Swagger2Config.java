@@ -15,6 +15,8 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 /**
  * https://blog.csdn.net/weixin_41846320/article/details/82970204
+ *
+ * https://yq.aliyun.com/articles/622789
  */
 @Configuration
 @EnableSwagger2
