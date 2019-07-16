@@ -5,6 +5,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
 import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
+/**
+ * @Auhor yc
+ */
 @EnableSwagger2
 @SpringBootApplication
 public class SpringBootModel {

@@ -13,6 +13,9 @@ import springfox.documentation.spi.DocumentationType;
 import springfox.documentation.spring.web.plugins.Docket;
 import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
+/**
+ * https://blog.csdn.net/weixin_41846320/article/details/82970204
+ */
 @Configuration
 @EnableSwagger2
 public class Swagger2Config {
@@ -20,7 +23,7 @@ public class Swagger2Config {
     /**
      * 对所有api扫描配置:controller路径
      */
-    private static final String BASE_PACKAGE = "com.tomyang.user.controller";
+    private static final String BASE_PACKAGE = "com.tomyang.ssm.controller";
 
     /**
      * Swagger2的配置文件：内容、扫描包等
